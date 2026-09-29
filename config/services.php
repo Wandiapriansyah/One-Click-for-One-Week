@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'google_sheets' => [
+        'motivation_spreadsheet_id' => env('MOTIVATION_SPREADSHEET_ID', '1JzgNB5ww35m0fCPcxoYLyZnGDIPLoQFWwdNE6vdZZ3M'),
+        'motivation_gid' => env('MOTIVATION_SHEET_GID', '0'),
+        'ca_bundle' => env('MOTIVATION_CA_BUNDLE'),
+    ],
+
 ];
